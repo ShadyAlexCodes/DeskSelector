@@ -112,3 +112,27 @@ div.hidden {
     background: url(https://i.imgur.com/JSbX6iz.png) bottom center no-repeat;
     height: 100px;
 }
+/* Github User */
+
+.github_button {
+    font-family: 'Righteous', cursive;
+    position: fixed;
+    bottom: 0px;
+    z-index: 9999;
+    right: 8px;
+}
+
+.github_button img {
+    height: 65px;
+    width: 65px;
+    border-radius: 50%;
+}
+
+.swal-title, .swal-text {
+    font-family: 'Righteous', cursive;
+    text-align: center;
+}
+.swal-button {
+    font-family: 'Righteous', cursive;
+    padding: 0px 24px;
+}
