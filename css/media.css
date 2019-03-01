@@ -8,6 +8,7 @@
         position: absolute;
         left: 40%;
         font-size: 120px;
+        margin-top: 150px;
     }
     
     .squareAnimation {
@@ -16,6 +17,7 @@
       width:200px;
       height:200px;
       margin:20px auto;
+      margin-top: 140px;
       -webkit-animation:rescale 10s infinite;
       animation: rescale 10s infinite;
     }
