@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css?family=Righteous');
+html, body {
+    height: 100%;
+    text-align: center;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    scroll-behavior: smooth;
+}
+   
+body {
+    background: #efefef;
+    color: #222222;
+} 
+
+.section {
+    padding: 8rem 0 7rem;
+    text-align: center;
+    
+  }
+  .section-heading,
+  .section-description {
+    margin-top: 1.2rem;
+    margin-bottom: 1.2rem;
+  }
+  .button {
+    background-color: #222222;
+    border-color: transparent;
+    color: #fff;
+}
+
+a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #efefef;
+    font-size: 22px;
+    margin-top: 20px;
+}
+
+a:hover {
+    color: #9BC1BC;
+}
+
+div.hidden {
+    display: none;
+}
+
+/* Pre loader */
+
+.preloader {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #efefef;
+ }
+
+@-webkit-keyframes rescale{
+  0% {transform:rotate(0deg);}
+  10% {transform:rotate(36deg);}
+  20% {transform:rotate(72deg);}
+  30% {transform:rotate(108deg);}
+  40% {transform:rotate(144deg);}
+  50% {transform:rotate(180deg);}
+  60% {transform:rotate(216deg);}
+  70% {transform:rotate(252deg);}
+  80% {transform:rotate(288deg);}
+  90% {transform:rotate(334deg);}
+  100% {transform:rotate(360deg);}
+}
+
+@keyframes rescale{
+  0% {transform:rotate(0deg);}
+  10% {transform:rotate(36deg);}
+  20% {transform:rotate(72deg);}
+  30% {transform:rotate(108deg);}
+  40% {transform:rotate(144deg);}
+  50% {transform:rotate(180deg);}
+  60% {transform:rotate(216deg);}
+  70% {transform:rotate(252deg);}
+  80% {transform:rotate(288deg);}
+  90% {transform:rotate(334deg);}
+  100% {transform:rotate(360deg);}
+}
+
+.teacherName {
+    color: #222222;
+    font-family: 'Righteous', cursive;
+    font-size: 75px;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+#deskNumber {
+    display: block;
+    font-family: 'Righteous', cursive;
+    color: #222222;
+    font-size: 68px;
+    margin-top: 50px;
+}
+
+.header .paint-stroke {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    background: url(https://i.imgur.com/JSbX6iz.png) bottom center no-repeat;
+    height: 100px;
+}

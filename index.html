@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head class="hidden-print">
+        <meta charset="UTF-8">
+        <title>ShadyAlexCodes</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/media.css">
+        <link rel="stylesheet" href="css/normalize.css"> 
+        <link rel="stylesheet" href="css/skeleton.css">
+        
+        <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css'>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="./javascript/preloader.js"></script>
+
+        <script>
+            function callDeskNumber() {
+                document.getElementById("deskNumber").innerHTML = "Desk Number: " + (Math.floor(Math.random() * 42) + 1).toString();
+                console.log(Math.floor(Math.random() * 42) + 1);  
+            }
+        </script>   
+    </head>
+    <body>
+    <div class="section">
+        <div class="preloader">
+            <p style="color:#222222;">A</p>
+            <div class="squareAnimation">
+                <div class="miniSquareAnimationOne"></div>
+                <div class="miniSquareAnimationTwo"></div>              
+            </div>  
+        </div>
+    </div>
+   <div class="section hidden"> 
+        <div class="container">
+            <div class="teacherName">
+                Mr. Biznak's
+                <br>
+                Random Desk Selector!
+            </div>
+                <br>
+                <a class="button button-primary" style="background-color: #222222; border-color: #222222" onclick="callDeskNumber()">Find a student!</a>
+            <p id="deskNumber">
+
+            </p> 
+        </div>
+    </div>
+
+</html>
+            
